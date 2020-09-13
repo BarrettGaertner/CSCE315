@@ -1,3 +1,9 @@
+/********** General styles **********/
+
+a {
+    text-decoration: none;
+}
+
 body {
     background: rgb(20, 20, 20);
     color: white;
@@ -5,11 +11,6 @@ body {
     margin: 0;
     padding: 0;
 }
-
-a {
-    text-decoration: none;
-}
-
 
 li {
     display: inline-block;
@@ -22,6 +23,7 @@ ul {
     list-style-type: none;
 }
 
+/* Navigation menu */
 .navigation a{
     color: white;
     font-size: 16px;
@@ -41,6 +43,13 @@ ul {
     margin: 2px;
     border: currentColor;
     border-radius: 5px;
+}
+
+/********** index.html classes **********/
+
+.page-top{
+    background: rgb(20, 20, 20);
+    padding: 20px 20px 20px 20px;
 }
 
 .page-left {
@@ -76,13 +85,13 @@ ul {
     object-fit: scale-down;
 }
 
-.page-top{
-    background: rgb(20, 20, 20);
-    padding: 20px 20px 20px 20px;
-}
-
 .introduction {
     font-size: 16px;
+
+}
+
+.name {
+    color: rgb(3, 175, 3)
 
 }
 
@@ -115,11 +124,6 @@ ul {
     padding:20px;
     display:flex;
     flex-direction: row;
-}
-
-.name {
-    color: rgb(3, 175, 3)
-
 }
 
 @media screen and (min-width: 500px){
