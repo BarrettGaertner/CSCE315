@@ -24,6 +24,9 @@ ul {
 }
 
 /* Navigation menu */
+.navigation {
+    padding: 40px 40px 40px 40px;
+}
 .navigation a{
     color: white;
     font-size: 16px;
@@ -46,17 +49,10 @@ ul {
 }
 
 /********** index.html classes **********/
-
-.page-top{
-    background: rgb(20, 20, 20);
-    padding: 20px 20px 20px 20px;
-}
-
 .page-left {
     margin-top: 100px;
-    margin-left: 20px;
-    width: 350px;
-    font-size: 20px;
+    margin-left: 5%;
+    width: 500px;
 }
 
 /* .page-right {
@@ -73,10 +69,11 @@ ul {
 } */
 
 .page-right {
-    margin-left: 40px;
+    margin-left: 10px;
+    margin-right: 5%;
     margin-top: 50px;
-    height: 250px;
-    width: 200px;
+    height: 500px;
+    width: 500px;
 }
 
 .page-right img {
@@ -86,13 +83,27 @@ ul {
 }
 
 .introduction {
-    font-size: 16px;
+    font-size: 20px;
 
+}
+
+.landing-header {
+    font-size: 60px;
 }
 
 .name {
     color: rgb(3, 175, 3)
 
+}
+
+.links {
+    background-color: rgb(20, 20, 20);
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 50px;
+    padding:20px;
+    display:flex;
+    flex-direction: row;
 }
 
 .links a{
@@ -116,14 +127,8 @@ ul {
     background: white;
 }
 
-.links {
-    background-color: rgb(20, 20, 20);
-    margin-top: 20px;
-    margin-left: 100px;
-    margin-right: 50px;
-    padding:20px;
-    display:flex;
-    flex-direction: row;
+.links button:active a {
+    font-weight: bold;
 }
 
 @media screen and (min-width: 500px){
@@ -133,4 +138,83 @@ ul {
     flex: wrap;
 }
 
+}
+
+/********** Portfolio.html classes **********/
+
+.portfolio-label{
+    font-size: 60px;
+    margin: 20px 40px 20px 40px;
+}
+.portfolio-div {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.portfolio-title {
+    text-align: center;
+    margin-left: 400px;
+    font-size: 60px;
+
+}
+
+.portfolio-text {
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+.portfolio-list {
+    margin-top: 10px;
+    display:flex;
+    flex-direction: row;
+}
+
+.portfolio-img img{
+    width: 200px;
+    object-fit: scale-down;
+    
+}
+
+.portfolio-img {
+    margin-left: 50px;
+}
+
+/********** aabout-me.html classes **********/
+
+.about-me-label {
+    background-color: red;
+    font-size: 60px;
+    padding: 0px 20px 0px 60px;
+
+}
+
+.about-me-list {
+    margin-top: 20px;
+    display:flex;
+    flex-direction: row;
+}
+
+.about-me-title {
+    background-color: blue;
+    font-size: 40px;
+    padding: 0px 20px 0px 60px;
+}
+
+.about-me-text {
+    font-size: 24px;
+    margin-left: 40px;
+    display: flex;
+}
+
+.about-me-list li:first-child{
+    width: 600px;
+    background-color: purple;
+}
+
+.about-me-list li:second-child{
+    width:400px;
+}
+
+.about-me-img img{
+    object-fit: scale-down;
+    width: 700px;
 }
