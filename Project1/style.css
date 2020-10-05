@@ -154,7 +154,6 @@ ul {
     text-align: center;
     margin-left: 400px;
     font-size: 60px;
-
 }
 
 .portfolio-text {
@@ -178,12 +177,11 @@ ul {
     margin-left: 50px;
 }
 
-/********** aabout-me.html classes **********/
+/********** about-me.html classes **********/
 
 .about-me-label {
-    background-color: red;
     font-size: 60px;
-    padding: 0px 20px 0px 60px;
+    padding: 0px 20px 0px 200px;
 
 }
 
@@ -194,9 +192,8 @@ ul {
 }
 
 .about-me-title {
-    background-color: blue;
     font-size: 40px;
-    padding: 0px 20px 0px 60px;
+    padding: 0px 20px 0px 40px;
 }
 
 .about-me-text {
@@ -205,16 +202,82 @@ ul {
     display: flex;
 }
 
-.about-me-list li:first-child{
+.about-me-s1 .about-me-list li:first-child{
     width: 600px;
-    background-color: purple;
 }
 
-.about-me-list li:second-child{
+.about-me-s1 .about-me-list li:second-child{
     width:400px;
 }
 
 .about-me-img img{
     object-fit: scale-down;
     width: 700px;
+}
+
+/********** qualifications.html classes **********/
+
+.qualifications-label{
+    font-size: 60px;
+    padding: 0px 20px 20px 200px;
+}
+
+.qualifications-outer-list{
+    display: flex;
+    flex-direction: row;
+}
+
+.qualifications-outer-list li:first-child{
+    width:600px;
+}
+
+.qualifications-title {
+    font-size: 32px;
+    padding: 0px 20px 10px 40px;
+}
+
+.qualifications-text {
+    font-size: 20px;
+    margin-left: 40px;
+    padding-bottom: 40px;
+}
+
+.qualifications-text a{
+    color: rgb(190, 190, 240)
+}
+
+.qualifications-text a:hover{
+    text-decoration: underline;
+}
+
+.resume iframe{
+    width: 600px;
+    height: 750px;
+}
+
+/********** service.html classes **********/
+.service-label{
+    font-size: 60px;
+    padding: 0px 20px 20px 200px;
+}
+
+.service-text{
+    font-size: 20px;
+    margin-left: 40px;
+    padding-bottom: 40px;
+}
+
+.service-list{
+    margin-top: 20px;
+    display:flex;
+    flex-direction: row;
+}
+
+.service-list li:first-child{
+    background:grey;
+    width:600px;
+}
+
+.service-image img{
+    width:500px;
 }
