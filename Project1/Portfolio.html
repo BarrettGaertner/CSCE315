@@ -21,33 +21,52 @@
 
 <!--Portfolio elements-->
 <section>
-    <!-- <div class="portfolio-element"><img src="../Images/Antique picture.jpg"> <scan class="port-title">Title</scan>
+    <!-- <div class="portfolio-element"><img src="Images/Antique picture.jpg"> <scan class="port-title">Title</scan>
         <br> <scan class="port-text">Text</scan></div> -->
     <div class="portfolio-label">Portfolio</div>
     <div class="portfolio-div">
-        <scan class="portfolio-title">Title</scan>
+        <scan class="portfolio-title">Multiplier Device</scan>
         <ul class="portfolio-list">
-            <li class="portfolio-img"><img src = "../Images/Antique picture.jpg"</li>
-            <li class="portfolio-text">Text</li>
+            <li class="portfolio-img"><img src = "Images/Multiplier.JPG"></li>
+            <li class="portfolio-text">In this project, I synthesized a multiplier hardware onto an FPGA 
+                using verilog programming on the <a href="https://www.xilinx.com/products/design-tools/vivado.html">Vivado</a> platform. 
+                To interact with this multiplier device, 
+                I compiled linux for FPGA and wrote device drivers that would allow the operating system 
+                to communicate with the multiplier. Through this project, 
+                I learned about device driver development and how to practically apply devices I make or program.</li>
         </ul>
     </div>
 
     <div class="portfolio-div">
-        <scan class="portfolio-title">Title</scan>
+        <scan class="portfolio-title">FPGA Projects</scan>
         <ul class="portfolio-list">
-            <li class="portfolio-img"><img src = "../Images/Antique picture.jpg"</li>
-            <li class="portfolio-text">Text</li>
-        </ul>
-    </div>
-    
-    <div class="portfolio-div">
-        <scan class="portfolio-title">Title</scan>
-        <ul class="portfolio-list">
-            <li class="portfolio-img"><img src = "../Images/Antique picture.jpg"</li>
-            <li class="portfolio-text">Text</li>
+            <li class="portfolio-img"><img src = "Images/FPGA 1.jpg"></li>
+            <li class="portfolio-text">I have worked frequently with the 
+                <a href=https://www.xilinx.com/products/boards-and-kits/1-pukimv.html> Zybo Z7-10</a> 
+                board and have made numerous projects for it using Verilog. One such project was a traffic 
+                light controller system, in which hardware was synthesized constituting a finite state machine 
+                that would change the state of a light, here represented by the leds on the board, based on input 
+                from a clock and a sensor. Projects like this one have allowed me to practice skills in hardware design 
+                and programming as well as state machine logic, and have helped build my understanding of digital 
+                logic at the hardware level.</li>
         </ul>
     </div>
 
-</section>
+    <div class="portfolio-div">
+        <scan class="portfolio-title">Memory Allocator</scan>
+        <ul class="portfolio-list">
+            <li class="portfolio-img"><img src = "Images/Buddy System Memory Allocator 2.JPG"></li>
+            <li class="portfolio-text">I programmed a 
+                <a href = "https://www.geeksforgeeks.org/buddy-system-memory-allocation-technique/">Buddy System Memory Allocator </a> in C++. 
+                Though managing the memory was difficult, it allowed me to practice memory operations and better understand how memory
+                 can be allocated and managed by an operating system or program. The knowledge I gained from this helps me
+                  in managing memory in devices, such as the aforementioned FPGA multiplier, as well as in other aspects of my programming. 
+           </li>
+        </ul>
+    </div>
+    <scan class = portfolio-footer>Though the projects I've done have not been uploaded, 
+        future projects will be able to be viewed on my <a href="https://github.com/BarrettGaertner/">Github</a></scan>
+    </section>
 </body>
+<footer class="universal-footer"></footer>
 </html>
