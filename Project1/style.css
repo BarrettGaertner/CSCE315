@@ -4,6 +4,14 @@ a {
     text-decoration: none;
 }
 
+section a{
+    color: rgb(190, 190, 240);
+}
+
+section a:hover{
+    text-decoration: underline;
+}
+
 body {
     background: rgb(20, 20, 20);
     color: white;
@@ -13,14 +21,13 @@ body {
 }
 
 li {
-    display: inline-block;
     margin-right: 20px;
 }
 
 ul {
+    list-style-type: none;
     margin: 0;
     padding: 0;
-    list-style-type: none;
 }
 
 /* Navigation menu */
@@ -36,6 +43,10 @@ ul {
     background-color: white;
 }*/
 
+.navigation li{
+    display: inline-block;
+}
+
 .navigation button:active a {
     font-weight: bold;
 }
@@ -48,6 +59,9 @@ ul {
     border-radius: 5px;
 }
 
+.universal-footer{
+    padding-bottom: 40px;
+}
 /********** index.html classes **********/
 .page-left {
     margin-top: 100px;
@@ -153,12 +167,12 @@ ul {
 .portfolio-title {
     text-align: center;
     margin-left: 400px;
-    font-size: 60px;
+    font-size: 40px;
 }
 
 .portfolio-text {
     margin-left: 20px;
-    font-size: 30px;
+    font-size: 24px;
 }
 
 .portfolio-list {
@@ -177,11 +191,23 @@ ul {
     margin-left: 50px;
 }
 
+.portfolio-footer {
+    padding: 0px 0px 00px 50px;
+    font-size: 20px;
+}
+
+.portfolio-footer a{
+    color: rgb(190, 190, 240);
+}
+
+.portfolio-footer a:hover{
+    text-decoration: underline;
+}
 /********** about-me.html classes **********/
 
 .about-me-label {
     font-size: 60px;
-    padding: 0px 20px 0px 200px;
+    padding: 0px 20px 20px 200px;
 
 }
 
@@ -199,14 +225,20 @@ ul {
 .about-me-text {
     font-size: 24px;
     margin-left: 40px;
-    display: flex;
+    display: block;
 }
 
-.about-me-s1 .about-me-list li:first-child{
+.about-me-s1{
+    width:1000px;
+    padding-bottom: 40px;
+}
+
+.about-me-s2 .about-me-list li:first-child{
     width: 600px;
+    padding-bottom: 40px;
 }
 
-.about-me-s1 .about-me-list li:second-child{
+.about-me-s2 .about-me-list li:second-child{
     width:400px;
 }
 
@@ -242,14 +274,6 @@ ul {
     padding-bottom: 40px;
 }
 
-.qualifications-text a{
-    color: rgb(190, 190, 240)
-}
-
-.qualifications-text a:hover{
-    text-decoration: underline;
-}
-
 .resume iframe{
     width: 600px;
     height: 750px;
@@ -274,7 +298,6 @@ ul {
 }
 
 .service-list li:first-child{
-    background:grey;
     width:600px;
 }
 
